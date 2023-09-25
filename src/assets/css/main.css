@@ -1,0 +1,23 @@
+@import './base.css';
+
+.row {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+}
+.paragraph {
+  font-weight: 500;
+  color: #000;
+}
+
+@media (max-width: 1023px) {
+  .row {
+    padding: 0 15px;
+  }
+}
